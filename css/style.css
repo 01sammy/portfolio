@@ -23,7 +23,7 @@ color: #191919;
 text-decoration: none;
 margin: 0 0 0 20px;
 }
-@media screen and (max-width: 360px){
+@media screen and (max-width: 480px){
 .wrap{
         width: 100%;}        
 header {
