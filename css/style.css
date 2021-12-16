@@ -51,4 +51,38 @@ header {
 .profile img {
         max-width: 100%;
     }
+    .profile {
+        margin: 1.5rem 0;
+    }
+.contents p {
+    font-size: 1.625rem;
+    margin: 0 0 0 20%;
+    }
+.keywords {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+    column-gap: 1rem;
+}
+.keywords span {
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 #ED8E70;
+}
+.uxui {
+    background-color: #9AC2FF;
+    text-shadow: 0 0 2px rgb(0,0,0, 0.5)
+}
+.web {
+    background-color: #9C9AFF;
+}
+.app {
+    background-color: #C09AFF;
+}
+.design {
+    background-color: #FF9AF5;
+}
+.buttons {
+    text-align: center;
+}
 }
