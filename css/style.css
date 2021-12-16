@@ -1,0 +1,54 @@
+
+h1 {
+display: none; /*표시 : 안함 */
+}
+.wrap {
+width: 1000px;
+margin: 0 auto;
+}
+header{
+display: flex;
+justify-content: space-between;
+height: 80px;
+align-items: center;
+}
+.logo {
+font-size: 3rem;
+}
+.menu {
+font-size: 1.750rem;
+}
+.menu a {
+color: #191919;
+text-decoration: none;
+margin: 0 0 0 20px;
+}
+@media screen and (max-width: 360px){
+.wrap{
+        width: 100%;}        
+header {
+            flex-direction: column;
+            height: auto;
+        }
+.logo {
+            font-size: 2rem;
+            padding: 1rem 0;
+        }
+.menu {
+    background-color: darkslateblue;
+    width:100%;
+    padding: 1rem 0;
+    font-size: 1.250rem;
+    display: flex;
+    justify-content: space-around;
+
+}
+.menu a {
+    color: white;
+    text-transform: uppercase;
+    margin: 0 1rem;
+}
+.profile img {
+        max-width: 100%;
+    }
+}
