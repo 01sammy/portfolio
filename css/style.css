@@ -51,8 +51,9 @@ header {
 .profile img {
         max-width: 100%;
     }
-    .profile {
-        margin: 1.5rem 0;
+.profile {
+        margin: 2rem auto;
+        width:80%;
     }
 .contents p {
     font-size: 1.625rem;
@@ -84,5 +85,8 @@ header {
 }
 .buttons {
     text-align: center;
+}
+.buttons img {
+    transform: scale(0.5)
 }
 }
