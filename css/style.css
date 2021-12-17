@@ -89,4 +89,27 @@ header {
 .buttons img {
     transform: scale(0.5)
 }
+.location{
+    display: flex;
+    justify-content: flex-end;
+    background: #ED8E70;
+    padding-right: 5%;
+    padding-top:2%;
+    padding-bottom: 2%;
+    color: white;
+}
+.location a {
+    color: white;
+    text-decoration: none;
+}
+.inner ul {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+.inner {
+    margin: 2% 5%
+}
+.inner iframe {
+    max-width: 100%;
+}
 }
